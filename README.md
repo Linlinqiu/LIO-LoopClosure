@@ -2,7 +2,7 @@
 
 一个基于 ROS2 的纯 SLAM 后端功能包，专注于**回环检测**和**位姿图优化**。它与前端 LiDAR 里程计**松耦合**——前端独立运行里程计，LIO-LoopClosure 通过话题订阅前端数据进行后端全局校正。
 
-## FASTLIO前端与真值轨迹对比图 VS 加入LIO-LoopClosure优化与真值轨迹对比图
+## FASTLIO与真值轨迹对比 VS LIO-LoopClosure优化后与真值轨迹对比
 
 <img width="3600" height="1800" alt="fastlio和lioloopclosure对比" src="https://github.com/user-attachments/assets/65e65a75-f29d-4543-844d-dc43a0a7ff7e" />
 
